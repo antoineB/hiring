@@ -1,0 +1,6 @@
+infra:
+    suites:
+        default:
+            contexts: [InfraContext]
+            filters:
+                tags: "@critical"
